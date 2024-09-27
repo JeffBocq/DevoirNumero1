@@ -1,3 +1,12 @@
 body{
+    font-family: Raleway-, sans-serif; /* Pas de serif, Les g sont ouverts */
     background-color: #782221;
+}
+
+/* Surcharges de style */
+.enItalique {
+    font-style: italic;
+}
+.enGras {
+    font-style: bold;
 }
