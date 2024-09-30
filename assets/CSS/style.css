@@ -1,12 +1,37 @@
 body{
-    font-family: Raleway-, sans-serif; /* Pas de serif, Les g sont ouverts */
-    background-color: #782221;
+    font-family: Raleway , sans-serif; /* Pas de serif, Les g sont ouverts */
+    width: 1160px;
 }
 
-/* Surcharges de style */
+section{
+    display: flex;
+    flex-direction:column;
+    /*
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    border: 2px;
+    */   
+}
+/* Mise en forme de style sur indication d'id */
+#monHeader {
+
+}
+/* Surcharges de style sur indication de classe */
 .enItalique {
     font-style: italic;
 }
 .enGras {
     font-style: bold;
+}
+.writeInWhite
+{
+    color: white;
+}
+div{
+    flex-basis: 33%;
+}
+header{
+    background-color: #782221;
+	max-width: 100%;
 }
