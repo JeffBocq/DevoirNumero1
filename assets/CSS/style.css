@@ -1,6 +1,7 @@
 body{
     font-family: Raleway , sans-serif; /* Pas de serif, Les g sont ouverts */
     width: 1160px;
+    margin : 0 auto ;
 }
 
 section{
@@ -13,6 +14,9 @@ section{
     border: 2px;
     */   
 }
+
+
+
 /* Mise en forme de style sur indication d'id */
 #monHeader {
 
