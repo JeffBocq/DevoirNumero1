@@ -22,147 +22,182 @@
 </head>
 <body>
     <header>
-        <section id="monHeader">
-            <div><img src="./assets/images/maTete.png" alt="Ma ganache"></div>
+        <section id="monHeader" >
+            <div><img id="maPhoto" src="./assets/images/maTete.png" width="150px" alt="Ma photo"></div>
             <div><H1 class="writeInWhite">Jean-François BOCQUET</H1></div>
             <div><h2 class="writeInWhite">Développeur Web Junior</h2></div>
         </section>
     </header>
 
     <main>
-        <section>
+        <section id="mesCoordonnees">
 
+            <DIV id="mesCoordonnees_adresse" style="text-align: left">
+                <a href="https://maps.app.goo.gl/HfgCBWvAnqVJYGRbA">
+                59, clos du Chardon Bleu<br>
+                74700 Sallanches
+                </a>
+            </DIV>
 
-        <DIV><a href="https://maps.app.goo.gl/HfgCBWvAnqVJYGRbA">
-            59, clos du Chardon Bleu<br>
-            74700 Sallanches</a>
-        </DIV>    
-        <DIV>
-            à propos
-        </DIV>    
-        <DIV>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a rutrum justo, non
-                consequat quam. Aliquam nec quam et quam ornare porttitor at non mauris. Interdum
-                et malesuada fames ac ante ipsum primis in faucibus.</p>
-        </DIV>    
-        <DIV>
-            Langues parlées
-        </DIV>
-        <DIV>
-            <ul>
-                <li>Français - Langue maternelle</li>
-                <li>Anglais - Intermédiaire</li>
-                <li>Espagnol - Débutant</li>
-            </ul>
-        </DIV>    
-        <DIV>
-            Centres d'intérêt
-        </DIV>
-        <DIV>
-            <ul>
-                <li>Famille</li>
-                <li>Squash</li>
-                <li>Randonnée</li>
-                <li>Voyages</li>
-            </ul>
-        </DIV>    
+            <DIV id="mesCoordonnees_email" style="text-align: center; align-self: center;">
+                <a href="mailto:bocquet.jeanfrancois@gmail.com">bocquet.jeanfrancois@gmail.com</a>
+            </DIV>   
 
+            <DIV id="mesCoordonnees_Telephone" style="text-align: right; align-self: center;">
+                <a  href="tel:+33604041277" >(+33)604041277</a>
+            </DIV>    
 
+        </section>
 
-        <DIV>
-            <a href="mailto:bocquet.jeanfrancois@gmail.com">bocquet.jeanfrancois@gmail.com</a>
-        </DIV>    
-        <DIV>
-            Expériences professionnelles
-        </DIV>    
-        <DIV>
-            Ingénieur Logiciel / CVF  - Somfy
-        </DIV>    
-        <DIV>
-            du 06/11/2008 à aujourd'hui
-        </DIV>
-        <DIV>
-            <ul>
-                <li>Concepteur logiciel embarqué </li>
-                <li>Chargé de Validation Fonctionnelle</li>
-                <li>Concepteur de moyens de tests automatiques</li>
-            </ul>
-        </DIV>    
-        <DIV>
-            Ingénieur Informatique chez Orange Business Services
-        </DIV>    
-        <DIV>
-            de 07/2007 à  11/2008
-        </DIV>
-        <DIV>
-            <ul>
-                <li>Mission chez Dassault Aérospace</li>
-                <li>Mission chez SagemCom</li>
-            </ul>
-        </DIV>    
-        <DIV>
-            Technicien Informatique chez Data&Mobiles
-        </DIV>    
-        <DIV>
-            de 11/1999 à 07/2007
-        </DIV>
-        <DIV>
-            <ul>
-                <li>Concepteur logiciel embarqué</li>
-                <li>Assembleur d'ordinateur embarqué</li>
-                <li>Mise en service - Support client</li>
-                <li>Conception Web</li>
-            </ul>
-        </DIV>    
+        
+        <section id="partieCentrale" >
+            <div style="flex-grow: 0; background-color: #782221; flex-basis: 25%; padding-right: 2em;" class="writeInWhite">
 
-        <DIV>
-            Diplômes - Formation
-        </DIV>    
-        <DIV>
-            Ingénieur Informatique - spécialité informatique embarquée
-        </DIV>    
-        <DIV>
-            de 09/2004 au 07/2007
-        </DIV>
-        <DIV>
-            ESISAR - Valence
-        </DIV>    
-        <DIV>
-            DUT GEII
-        </DIV>    
-        <DIV>
-            du 09/1996 au 07/1998
-        </DIV>
-        <DIV>
-            IUT de Salon de Provence
-        </DIV>    
-
-        <DIV>
-            Compétences
-        </DIV>    
-        <DIV>
-            <ul>
-                <li>Langage C - Expert</li>
-                <li>HTML5 - Expert</li>
-                <li>Python - Intermédiaire</li>
-                <li>CSS3 - Intermédiaire</li>
-                <li>GitHub - Débutant</li>
-            </ul>
-        </DIV>    
-
-        <DIV>
-            <a href="tel:+33604041277">(+33)604041277</a>
-        </DIV>    
-
-
+                <!-- <section id="partieCentraleGauche" style="border-width: 5px; border-style: solid;"> -->
+                <section id="partieCentraleGauche">
+                <div style="flex-grow: 0;">
+                    <DIV>
+                        <h3>A propos</h3>
+                    </DIV>  
+                    <DIV>
+                        <p style="text-indent:3em; margin-left: 1em; margin-right: 0em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a rutrum justo, non
+                            consequat quam. Aliquam nec quam et quam ornare porttitor at non mauris. Interdum
+                            et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    </DIV>    
+                    <DIV>
+                        <h3>Langues parlées</h3>
+                    </DIV>
+                    <DIV>
+                        <ul>
+                            <li>Français - Langue maternelle</li>
+                            <li>Anglais - Intermédiaire</li>
+                            <li>Espagnol - Débutant</li>
+                        </ul>
+                    </DIV>    
+                    <DIV>
+                        <h3>Centres d'intérêt</h3>
+                    </DIV>
+                    <DIV>
+                        <ul>
+                            <li>Famille</li>
+                            <li>Squash</li>
+                            <li>Randonnée</li>
+                            <li>Voyages</li>
+                        </ul>
+                    </DIV>
+                </div>
+                </section>
+            </div>
+            <div style="flex-grow: 1;">
+                <section id="partieCentraleDroite" style="margin-left: 2em; margin-right: 1em;">
+                    <div style="flex-grow: 1">
+                        <h3 style="border-left : solid 10px #782221;">Expériences professionnelles</h3>
+                    </DIV>    
+                    <DIV style="font-weight: bold;">
+                        Ingénieur Logiciel / CVF  - Somfy
+                    </DIV>
+                    <BR>    
+                    <DIV>
+                        du 06/11/2008 à aujourd'hui
+                    </DIV>
+                    <DIV>
+                        <ul>
+                            <li>Concepteur logiciel embarqué </li>
+                            <li>Chargé de Validation Fonctionnelle</li>
+                            <li>Concepteur de moyens de tests automatiques</li>
+                        </ul>
+                    </DIV>    
+                    <DIV style="font-weight: bold;">
+                        Ingénieur Informatique chez Orange Business Services
+                    </DIV>    
+                    <BR>    
+                    <DIV>
+                        de 07/2007 à  11/2008
+                    </DIV>
+                    <DIV>
+                        <ul>
+                            <li>Mission chez Dassault Aérospace</li>
+                            <li>Mission chez SagemCom</li>
+                        </ul>
+                    </DIV>    
+                    <DIV style="font-weight: bold;">
+                        Technicien Informatique chez Data&Mobiles
+                    </DIV>    
+                    <BR>    
+                    <DIV>
+                        de 11/1999 à 07/2007
+                    </DIV>
+                    <DIV>
+                        <ul>
+                            <li>Concepteur logiciel embarqué</li>
+                            <li>Assembleur d'ordinateur embarqué</li>
+                            <li>Mise en service - Support client</li>
+                            <li>Conception Web</li>
+                        </ul>
+                    </DIV>    
+            
+                    <DIV>
+                        <h3 style="border-left : solid 10px #782221;">Diplômes - Formation</h3>
+                    </DIV>    
+                    <DIV style="font-weight: bold;">
+                        Ingénieur Informatique - spécialité informatique embarquée
+                    </DIV>    
+                    <BR>    
+                    <DIV>
+                        de 09/2004 à 07/2007
+                    </DIV>
+                    <BR>    
+                    <DIV>
+                        ESISAR - Valence
+                    </DIV>    
+                    <BR>    
+                    <DIV style="font-weight: bold;">
+                        DUT GEII
+                    </DIV>    
+                    <BR>    
+                    <DIV>
+                        de 09/1996 à 07/1998
+                    </DIV>
+                    <BR>    
+                    <DIV>
+                        IUT de Salon de Provence
+                    </DIV>    
+                    <BR>    
+                    <DIV>
+                        <h3 style="border-left : solid 10px #782221;">Compétences</h3>
+                    </DIV>    
+                    <DIV>
+                        <ul style="margin-top: 0px;"">
+                            <li>Langage C - Expert</li>
+                            <li>HTML5 - Expert</li>
+                            <li>Python - Intermédiaire</li>
+                            <li>CSS3 - Intermédiaire</li>
+                            <li>GitHub - Débutant</li>
+                        </ul>
+                    </DIV> 
+                </section>
+            </div>
     </section>
 
 
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" ></a> 
-        <a href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" ></a>
-        <a href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" ></a>
+        <section style="flex-direction: column; align-self: center;">
+            <DIV style="display:flex; flex-direction:row">
+                <div>
+                <a href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" alt="Linkez-moi" width="50px"></a> 
+                </div>
+                <div style="padding-left: 1em; padding-right: 1em;">
+                <a href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" alt="Twittez-moi" width="50px"></a>
+                </div>
+                <div>
+                <a href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" alt="Gittez-moi" width="50px" ></a>
+                </DIV>
+            </DIV>
+            <DIV>
+                <p class="writeInWhite">Dernière mise à jour le 10/10/2024</p> 
+            </DIV>
+    </section>
     </footer>
 </body>
 </html>
