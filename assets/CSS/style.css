@@ -2,7 +2,7 @@ body{
     font-family: Raleway , sans-serif; /* Pas de serif, Raleway = Les g sont ouverts */
     width: 1150px; /* 1150 px + 10 de bordure = 1160 px*/
     margin : 0 auto ; /* pour le centrage sur la page de navigateur */
-    border-right: #2c1d27 10px solid; /* Bordure de droite */
+    border-right: #2c1d27 5px solid; /* Bordure de droite */
     /*
     background-image: url('../images/maTete.png');
     background-repeat: no-repeat;
@@ -111,4 +111,18 @@ a{
     flex-basis:auto;
 }
 
-
+.barreVioletteAuSurvol{
+    flex-direction: column;   
+}
+.barreVioletteAuSurvol:hover{
+    border-right : 1em solid purple;  
+}
+.zoomIsAllowed:hover{
+    cursor:zoom-in;
+}
+.link2SocialNetwork:hover{
+    opacity: 80%;
+}
+.isALink:hover{
+    text-decoration: underline;
+}

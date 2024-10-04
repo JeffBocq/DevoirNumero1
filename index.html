@@ -23,7 +23,7 @@
 <body>
     <header>
         <section id="monHeader" >
-            <div><img id="maPhoto" src="./assets/images/maTete.png" width="150px" alt="Ma photo"></div>
+            <div><a class="zoomIsAllowed" href="./assets/images/maTete.png" target="_blank"><img id="maPhoto" src="./assets/images/maTete.png" width="150px" alt="Ma photo"></a></div>
             <div><H1 class="writeInWhite">Jean-François BOCQUET</H1></div>
             <div><h2 class="writeInWhite">Développeur Web Junior</h2></div>
         </section>
@@ -33,18 +33,18 @@
         <section id="mesCoordonnees">
 
             <DIV id="mesCoordonnees_adresse" style="text-align: left">
-                <a href="https://maps.app.goo.gl/HfgCBWvAnqVJYGRbA">
+                <a class="isALink" href="https://maps.app.goo.gl/HfgCBWvAnqVJYGRbA">
                 59, clos du Chardon Bleu<br>
                 74700 Sallanches
                 </a>
             </DIV>
 
             <DIV id="mesCoordonnees_email" style="text-align: center; align-self: center;">
-                <a href="mailto:bocquet.jeanfrancois@gmail.com">bocquet.jeanfrancois@gmail.com</a>
+                <a class="isALink" href="mailto:bocquet.jeanfrancois@gmail.com">bocquet.jeanfrancois@gmail.com</a>
             </DIV>   
 
             <DIV id="mesCoordonnees_Telephone" style="text-align: right; align-self: center;">
-                <a  href="tel:+33604041277" >(+33)604041277</a>
+                <a class="isALink" href="tel:+33604041277" >(+33)604041277</a>
             </DIV>    
 
         </section>
@@ -89,25 +89,28 @@
                 </section>
             </div>
             <div style="flex-grow: 1;">
-                <section id="partieCentraleDroite" style="margin-left: 2em; margin-right: 1em;">
+                <section id="partieCentraleDroite" style="margin-left: 2em; margin-right: 1em; margin-bottom: 1em;">
                     <div style="flex-grow: 1">
                         <h3 style="border-left : solid 10px #782221;">Expériences professionnelles</h3>
                     </DIV>    
-                    <DIV style="font-weight: bold;">
-                        Ingénieur Logiciel / CVF  - Somfy
-                    </DIV>
-                    <BR>    
-                    <DIV>
-                        du 06/11/2008 à aujourd'hui
-                    </DIV>
-                    <DIV>
-                        <ul>
-                            <li>Concepteur logiciel embarqué </li>
-                            <li>Chargé de Validation Fonctionnelle</li>
-                            <li>Concepteur de moyens de tests automatiques</li>
-                        </ul>
-                    </DIV>    
-                    <DIV style="font-weight: bold;">
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold;">
+                            Ingénieur Logiciel / CVF  - Somfy
+                        </DIV>
+                        <BR>    
+                        <DIV>
+                            du 06/11/2008 à aujourd'hui
+                        </DIV>
+                        <DIV>
+                            <ul>
+                                <li>Concepteur logiciel embarqué </li>
+                                <li>Chargé de Validation Fonctionnelle</li>
+                                <li>Concepteur de moyens de tests automatiques</li>
+                            </ul>
+                        </DIV>
+                    </section>
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold;">
                         Ingénieur Informatique chez Orange Business Services
                     </DIV>    
                     <BR>    
@@ -120,7 +123,9 @@
                             <li>Mission chez SagemCom</li>
                         </ul>
                     </DIV>    
-                    <DIV style="font-weight: bold;">
+                    </section>
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold;">
                         Technicien Informatique chez Data&Mobiles
                     </DIV>    
                     <BR>    
@@ -135,11 +140,12 @@
                             <li>Conception Web</li>
                         </ul>
                     </DIV>    
-            
+                    </section>
                     <DIV>
                         <h3 style="border-left : solid 10px #782221;">Diplômes - Formation</h3>
                     </DIV>    
-                    <DIV style="font-weight: bold;">
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold;">
                         Ingénieur Informatique - spécialité informatique embarquée
                     </DIV>    
                     <BR>    
@@ -150,8 +156,10 @@
                     <DIV>
                         ESISAR - Valence
                     </DIV>    
-                    <BR>    
-                    <DIV style="font-weight: bold;">
+                    </section>
+                    <br>    
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold;">
                         DUT GEII
                     </DIV>    
                     <BR>    
@@ -162,19 +170,21 @@
                     <DIV>
                         IUT de Salon de Provence
                     </DIV>    
-                    <BR>    
+                    </section>    
                     <DIV>
                         <h3 style="border-left : solid 10px #782221;">Compétences</h3>
                     </DIV>    
-                    <DIV>
-                        <ul style="margin-top: 0px;"">
+                    <section class="barreVioletteAuSurvol"> 
+                        <DIV>
+                        <ul style="margin-top: 0px; margin-bottom: 0px;"">
                             <li>Langage C - Expert</li>
                             <li>HTML5 - Expert</li>
                             <li>Python - Intermédiaire</li>
                             <li>CSS3 - Intermédiaire</li>
                             <li>GitHub - Débutant</li>
                         </ul>
-                    </DIV> 
+                    </DIV>
+                    </section> 
                 </section>
             </div>
     </section>
@@ -185,13 +195,13 @@
         <section style="flex-direction: column; align-self: center;">
             <DIV style="display:flex; flex-direction:row">
                 <div>
-                <a href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" alt="Linkez-moi" width="50px"></a> 
+                <a class="link2SocialNetwork" href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" alt="Linkez-moi" width="50px"></a> 
                 </div>
                 <div style="padding-left: 1em; padding-right: 1em;">
-                <a href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" alt="Twittez-moi" width="50px"></a>
+                <a class="link2SocialNetwork" href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" alt="Twittez-moi" width="50px"></a>
                 </div>
                 <div>
-                <a href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" alt="Gittez-moi" width="50px" ></a>
+                <a class="link2SocialNetwork" href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" alt="Gittez-moi" width="50px" ></a>
                 </DIV>
             </DIV>
             <DIV>
