@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV de JF Bocquet en ligne"> 
+    <meta name="description" content="CV en ligne de JF Bocquet"> 
     <meta name="author" content="Jean-François BOCQUET">
     <!-- Favicon généré à partir d'une capture "almost" carrée de l'image du devoir -->
     <!-- Favicon généré sur https://www.websiteplanet.com/fr/webtools/favicon-generator/-->
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon-16x16.png"/>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon-16x16.png">
     <!-- Import de la Font Lato via commandes données par le site google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,17 @@
     <title>CV de JFB</title>
 </head>
 <body>
-    <header>
-        <section id="monHeader" >
-            <div><a class="zoomIsAllowed" href="./assets/images/maTete.png" target="_blank"><img id="maPhoto" src="./assets/images/maTete.png" width="150px" alt="Ma photo"></a></div>
-            <div><H1 class="writeInWhite">Jean-François BOCQUET</H1></div>
-            <div><h2 class="writeInWhite">Développeur Web Junior</h2></div>
-        </section>
+
+    <header >
+        <div><a class="zoomIsAllowed" href="./assets/images/maTete.png" target="_blank"><img id="maPhoto" src="./assets/images/maTete.png" width="150" alt="Ma photo"></a></div>
+        <div><H1 class="writeInWhite">Jean-François BOCQUET</H1></div>
+        <div><h2 class="writeInWhite">Développeur Web Junior</h2></div>
     </header>
 
     <main>
-        <section id="mesCoordonnees">
 
+        <!-- ******************************************************************************************** -->
+        <DIV id="mesCoordonnees">
             <DIV id="mesCoordonnees_adresse" style="text-align: left">
                 <a class="isALink" href="https://maps.app.goo.gl/HfgCBWvAnqVJYGRbA">
                 59, clos du Chardon Bleu<br>
@@ -46,60 +46,67 @@
             <DIV id="mesCoordonnees_Telephone" style="text-align: right; align-self: center;">
                 <a class="isALink" href="tel:+33604041277" >(+33)604041277</a>
             </DIV>    
-
-        </section>
-
-        
-        <section id="partieCentrale" >
+        </DIV>
+        <!-- ******************************************************************************************** -->       
+        <DIV id="partieCentrale" >
             <div style="flex-grow: 0; background-color: #782221; flex-basis: 25%; padding-right: 2em;" class="writeInWhite">
-
-                <!-- <section id="partieCentraleGauche" style="border-width: 5px; border-style: solid;"> -->
                 <section id="partieCentraleGauche">
-                <div style="flex-grow: 0;">
-                    <DIV>
-                        <h3>A propos</h3>
-                    </DIV>  
-                    <DIV>
-                        <p style="text-indent:3em; margin-left: 1em; margin-right: 0em; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a rutrum justo, non
-                            consequat quam. Aliquam nec quam et quam ornare porttitor at non mauris. Interdum
-                            et malesuada fames ac ante ipsum primis in faucibus.</p>
-                    </DIV>    
-                    <DIV>
-                        <h3>Langues parlées</h3>
-                    </DIV>
-                    <DIV>
-                        <ul>
-                            <li>Français - Langue maternelle</li>
-                            <li>Anglais - Intermédiaire</li>
-                            <li>Espagnol - Débutant</li>
-                        </ul>
-                    </DIV>    
-                    <DIV>
-                        <h3>Centres d'intérêt</h3>
-                    </DIV>
-                    <DIV>
-                        <ul>
-                            <li>Famille</li>
-                            <li>Squash</li>
-                            <li>Randonnée</li>
-                            <li>Voyages</li>
-                        </ul>
-                    </DIV>
-                </div>
+                    <div style="flex-grow: 0;">
+                        
+                        <DIV>
+                            <h3>A propos</h3>
+                        </DIV>
+
+                        <DIV>
+                            <p style="text-indent:3em; margin-left: 1em; margin-right: 0em; text-align: justify;">
+                                Jeune ingénieur informatique avec (à peu près) un demi-siècle au compteur, 
+                                cherche une reconversion me permettant rencontrer du monde. 
+                                Initialement formé pour le logiciel embarqué (donc bien planqué dans le CPU), 
+                                je veux maintenant montrer au monde entier de quoi je suis capable
+                            </p>
+                        </DIV>
+
+                        <DIV>
+                            <h3>Langues parlées</h3>
+                        </DIV>
+
+                        <DIV>
+                            <ul>
+                                <li>Français - Langue maternelle</li>
+                                <li>Anglais - Intermédiaire</li>
+                                <li>Espagnol - Débutant</li>
+                            </ul>
+                        </DIV>    
+
+                        <DIV>
+                            <h3>Centres d'intérêt</h3>
+                        </DIV>
+
+                        <DIV>
+                            <ul>
+                                <li>Famille</li>
+                                <li>Squash</li>
+                                <li>Randonnée</li>
+                                <li>Voyages</li>
+                            </ul>
+                        </DIV>
+                    </div>
                 </section>
             </div>
+
             <div style="flex-grow: 1;">
                 <section id="partieCentraleDroite" style="margin-left: 2em; margin-right: 1em; margin-bottom: 1em;">
+
                     <div style="flex-grow: 1">
                         <h3 style="border-left : solid 10px #782221;">Expériences professionnelles</h3>
                     </DIV>    
-                    <section class="barreVioletteAuSurvol"> 
-                        <DIV style="font-weight: bold;">
-                            Ingénieur Logiciel / CVF  - Somfy
+
+                    <DIV class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold; padding-bottom: 1em;">
+                        Ingénieur Logiciel / CVF  - Somfy
                         </DIV>
-                        <BR>    
                         <DIV>
-                            du 06/11/2008 à aujourd'hui
+                        du <time datetime="2008-11-06">06/11/2008</time> à aujourd'hui
                         </DIV>
                         <DIV>
                             <ul>
@@ -108,106 +115,101 @@
                                 <li>Concepteur de moyens de tests automatiques</li>
                             </ul>
                         </DIV>
-                    </section>
-                    <section class="barreVioletteAuSurvol"> 
-                        <DIV style="font-weight: bold;">
+                    </DIV>
+
+                    <DIV class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold; padding-bottom: 1em;">
                         Ingénieur Informatique chez Orange Business Services
-                    </DIV>    
-                    <BR>    
-                    <DIV>
-                        de 07/2007 à  11/2008
+                        </DIV>    
+                        <DIV>
+                        de <time datetime="2007-07">07/2007</time> à <time datetime="2008-11">11/2008</time>
+                        </DIV>
+                        <DIV>
+                            <ul>
+                                <li>Mission chez Dassault Aérospace</li>
+                                <li>Mission chez SagemCom</li>
+                            </ul>
+                        </DIV>    
                     </DIV>
-                    <DIV>
-                        <ul>
-                            <li>Mission chez Dassault Aérospace</li>
-                            <li>Mission chez SagemCom</li>
-                        </ul>
-                    </DIV>    
-                    </section>
-                    <section class="barreVioletteAuSurvol"> 
-                        <DIV style="font-weight: bold;">
-                        Technicien Informatique chez Data&Mobiles
-                    </DIV>    
-                    <BR>    
-                    <DIV>
-                        de 11/1999 à 07/2007
+
+                    <DIV class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold; padding-bottom: 1em;">
+                            Technicien Informatique chez Data&Mobiles
+                        </DIV>    
+                        <DIV>
+                            de <time datetime="1999-11">11/1999</time> à <time datetime="2007-07">07/2007</time>
+                        </DIV>
+                        <DIV>
+                            <ul>
+                                <li>Concepteur logiciel embarqué</li>
+                                <li>Assembleur d'ordinateur embarqué</li>
+                                <li>Mise en service - Support client</li>
+                                <li>Conception Web</li>
+                            </ul>
+                        </DIV>    
                     </DIV>
-                    <DIV>
-                        <ul>
-                            <li>Concepteur logiciel embarqué</li>
-                            <li>Assembleur d'ordinateur embarqué</li>
-                            <li>Mise en service - Support client</li>
-                            <li>Conception Web</li>
-                        </ul>
-                    </DIV>    
-                    </section>
+    
                     <DIV>
                         <h3 style="border-left : solid 10px #782221;">Diplômes - Formation</h3>
                     </DIV>    
-                    <section class="barreVioletteAuSurvol"> 
-                        <DIV style="font-weight: bold;">
+                    <DIV class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold; padding-bottom: 1em;">
                         Ingénieur Informatique - spécialité informatique embarquée
-                    </DIV>    
-                    <BR>    
-                    <DIV>
-                        de 09/2004 à 07/2007
-                    </DIV>
-                    <BR>    
-                    <DIV>
+                        </DIV>    
+                        <DIV style="padding-bottom: 1em;">
+                        de <time datetime="2004-09">09/2004</time> à <time datetime="2007-07">07/2007</time>
+                        </DIV>
+                        <DIV>
                         ESISAR - Valence
-                    </DIV>    
-                    </section>
-                    <br>    
-                    <section class="barreVioletteAuSurvol"> 
-                        <DIV style="font-weight: bold;">
-                        DUT GEII
-                    </DIV>    
-                    <BR>    
-                    <DIV>
-                        de 09/1996 à 07/1998
+                        </DIV>    
                     </DIV>
-                    <BR>    
-                    <DIV>
+                    <DIV class="barreVioletteAuSurvol"> 
+                        <DIV style="font-weight: bold; padding-bottom: 1em;">
+                        DUT GEII
+                        </DIV>    
+                        <DIV style="padding-bottom: 1em;">
+                        de <time datetime="1996-09">09/1996</time> à <time datetime="1998-07">07/1998</time>
+                        </DIV>
+                        <DIV>
                         IUT de Salon de Provence
+                        </DIV>    
                     </DIV>    
-                    </section>    
                     <DIV>
                         <h3 style="border-left : solid 10px #782221;">Compétences</h3>
                     </DIV>    
-                    <section class="barreVioletteAuSurvol"> 
+                    <DIV class="barreVioletteAuSurvol"> 
                         <DIV>
-                        <ul style="margin-top: 0px; margin-bottom: 0px;"">
-                            <li>Langage C - Expert</li>
-                            <li>HTML5 - Expert</li>
-                            <li>Python - Intermédiaire</li>
-                            <li>CSS3 - Intermédiaire</li>
-                            <li>GitHub - Débutant</li>
-                        </ul>
-                    </DIV>
-                    </section> 
+                            <ul style="margin-top: 0px; margin-bottom: 0px;">
+                                <li>Langage C - Expert</li>
+                                <li>HTML5 - Expert</li>
+                                <li>Python - Intermédiaire</li>
+                                <li>CSS3 - Intermédiaire</li>
+                                <li>GitHub - Débutant</li>
+                            </ul>
+                        </DIV>
+                    </DIV> 
                 </section>
-            </div>
-    </section>
-
-
+            </DIV>
+        </DIV>
     </main>
+    <!-- ******************************************************************************************** -->       
     <footer>
-        <section style="flex-direction: column; align-self: center;">
+        <DIV style="flex-direction: column; align-self: center;">
             <DIV style="display:flex; flex-direction:row">
                 <div>
-                <a class="link2SocialNetwork" href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" alt="Linkez-moi" width="50px"></a> 
+                <a class="link2SocialNetwork" href="https://www.linkedin.com/in/jean-fran%C3%A7ois-bocquet-88633430/"><img src="./assets/images/linkedin.png" alt="Linkez-moi" width="50"></a> 
                 </div>
                 <div style="padding-left: 1em; padding-right: 1em;">
-                <a class="link2SocialNetwork" href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" alt="Twittez-moi" width="50px"></a>
+                <a class="link2SocialNetwork" href="https://x.com/ElmerFoodBeat"><img src="./assets/images/twitter.png" alt="Twittez-moi" width="50"></a>
                 </div>
                 <div>
-                <a class="link2SocialNetwork" href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" alt="Gittez-moi" width="50px" ></a>
+                <a class="link2SocialNetwork" href="https://github.com/JeffBocq"><img src="./assets/images/signe-github.png" alt="Gittez-moi" width="50" ></a>
                 </DIV>
             </DIV>
             <DIV>
-                <p class="writeInWhite">Dernière mise à jour le 10/10/2024</p> 
+                <p class="writeInWhite">Dernière mise à jour le <time datetime="2024-10-10">10/10/2024</time></p> 
             </DIV>
-    </section>
+        </DIV>
     </footer>
 </body>
 </html>
